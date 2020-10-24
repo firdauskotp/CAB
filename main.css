@@ -96,3 +96,22 @@ nav{
 /* .nav-active{
     transform: translateX(0%);
 } */
+
+hr {
+    border: none;
+    height: 5px;
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.si img{
+    opacity: 0.5;
+}
+
+.si img:hover{
+    opacity: 1.0;
+}
+
+.toc{
+    font-family: 'Caveat', cursive;
+}
